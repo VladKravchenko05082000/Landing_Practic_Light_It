@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".Accordeon__title").click(function(e){$(this).toggleClass("active").next().slideToggle(300)})});

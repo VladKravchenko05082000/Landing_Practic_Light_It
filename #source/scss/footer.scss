@@ -1,0 +1,158 @@
+.basement {
+	background-color: #19242a;
+	color: #688898;
+}
+
+.basement__container {
+	width: 1200px;
+	display: flex;
+	justify-content: center;
+	height: 300px;
+	margin-left: 214px;
+	position: relative;
+}
+
+.basement__column {
+	padding-top: 38px;
+	padding-right: 51px;
+}
+
+.basement__row h3{
+	font-family: 'Montserrat';
+   font-size: 20px;
+   letter-spacing: 4px;
+   position: absolute;
+   left:6%;
+   top: 20%;
+}
+
+.basement__row h4{
+	font-size: 18px;
+   font-weight: 300;
+}
+
+.basement__row p{
+	margin: 5px 0px;
+	font-style: italic;
+   color: #bdd2dc;
+}
+
+.basement__row span{
+	display: block;
+	margin-bottom: 30px;
+}
+
+.basement__row input{
+	margin: 21px 0px 17px 0px;
+	background-color: #23323a;
+	width: 270px;
+   height: 39px;
+   color: white;
+}
+
+.basement__title {
+	font-size: 17px;
+   font-weight: 300;
+   padding-bottom: 40px;
+}
+
+.footer__line {
+	width: 271px;
+   height: 1px;
+   background-color: #23323a;
+   margin: 17px 0px;
+}
+
+.basement__icon {
+	margin-top: 20px;
+}
+
+.marine__icon{
+	margin-bottom: 27px;
+}
+
+.phoenix__icon::before{
+	content: "11";
+	background-image: url("../image/footer__img/Location.png");
+	width: 16px;
+   height: 24px;
+   color: transparent;
+   display: block;
+   position: absolute;
+   right: 45.5%;
+}
+
+.phone__icon::before{
+	content: "1";
+	background-image: url("../image/footer__img/Mobile.png");
+	width: 14px;
+   height: 20px;
+   color: transparent;
+   display: block;
+   position: absolute;
+   right: 45.5%;
+}
+
+.support__icon::before{
+	content: "1";
+	background-image: url("../image/footer__img/Mail.png");
+	width: 18px;
+   height: 13px;
+   color: transparent;
+   display: block;
+   position: absolute;
+   right: 45.5%;
+}
+
+.galochka{
+	position: absolute;
+	top: 51%;
+	right: 5%;
+}
+
+.All-Rights-Reserved {
+	background-color: #141d22;
+}
+.All-Rights-Reserved__container {
+	width: 1200px;
+	margin: 0px auto;
+	padding-left: 15px;
+}
+
+.All-Rights-Reserved__container p{
+	padding: 24px 0px;
+	color: #547e93;
+}
+
+@media screen and (max-width: 1400px){
+	.basement__container {
+		flex-direction: column;
+		height: 100%;
+		margin-left: 0px;
+	}
+	.basement__row input{
+		width: 170px;
+	}
+	.galochka{
+		display: none;
+	}
+	.basement__row h3{
+   left:6%;
+   top: 8%;
+	}
+
+}
+
+@media screen and (max-width: 650px){
+		.basement__row input{
+			width: 120px;
+			height: 15px;
+			position: absolute;
+			left: 0px;
+			top: 85%;
+	}
+	.basement__container {
+		width: 100%;
+	}
+}
+

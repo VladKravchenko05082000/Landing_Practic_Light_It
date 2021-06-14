@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".twitter__slider__item").slick({infinite:!0,speed:300,slidesToShow:1})});
